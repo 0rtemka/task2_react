@@ -4,21 +4,21 @@ import { UlCard } from './components/ulCard'
 import { ColumnList } from './components/columnList'
 
 const progLangList = [
-  {title: 'Python', description: 'Высокоуровневый язык программирования общего назначения с динамической строгой типизацией и автоматическим управлением памятью'},
-  {title: 'Java', description: 'Строго типизированный объектно-ориентированный язык программирования общего назначения, разработанный компанией Sun Microsystems'},
-  {title: 'Go', description: 'Компилируемый многопоточный язык программирования, разработанный внутри компании Google'},
+  {title: 'Python', description: 'Высокоуровневый язык программирования общего назначения с динамической строгой типизацией и автоматическим управлением памятью', status: "none"},
+  {title: 'Java', description: 'Строго типизированный объектно-ориентированный язык программирования общего назначения, разработанный компанией Sun Microsystems', status: "finished"},
+  {title: 'Go', description: 'Компилируемый многопоточный язык программирования, разработанный внутри компании Google', status: "in_progress"},
 ]
 
 const frameworksList = [
-  {title: 'Django', description: 'Cвободный фреймворк для веб-приложений на языке Python, использующий шаблон проектирования MVC'},
-  {title: 'Spring', description: 'Универсальный фреймворк с открытым исходным кодом для Java-платформы'},
-  {title: 'Gin', description: 'Производительный веб-фреймворк, написанный на Golang'},
+  {title: 'Django', description: 'Cвободный фреймворк для веб-приложений на языке Python, использующий шаблон проектирования MVC', status: "none"},
+  {title: 'Spring', description: 'Универсальный фреймворк с открытым исходным кодом для Java-платформы', status: "in_progress"},
+  {title: 'Gin', description: 'Производительный веб-фреймворк, написанный на Golang', status: "none"},
 ]
 
 const dbList = [
-  {title: 'PostgreSQL', description: 'Свободная объектно-реляционная система управления базами данных'},
-  {title: 'MySQL', description: 'Cвободная реляционная система управления базами данных'},
-  {title: 'MongoDB', description: 'Документоориентированная система управления базами данных, не требующая описания схемы таблиц'},
+  {title: 'PostgreSQL', description: 'Свободная объектно-реляционная система управления базами данных', status: "finished"},
+  {title: 'MySQL', description: 'Cвободная реляционная система управления базами данных', status: "in_progress"},
+  {title: 'MongoDB', description: 'Документоориентированная система управления базами данных, не требующая описания схемы таблиц', status: "in_progress"},
 ]
 
 const keysProg = ['ООП', 'Алгоритмы', 'Clean code', 'SOLID']

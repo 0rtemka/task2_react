@@ -1,14 +1,14 @@
-.more_button {
-    background-image: url(/public/images/more-less.png);
-    background-size: cover;
+.hide_button {
+    background-size: contain;
     border-radius: 8px;
     padding: 18px;
 }
 
+.more_button {
+    background-image: url(/public/images/more-less.png);
+}
+
 .less_button {
     background-image: url(/public/images/more-less.png);
-    background-size: contain;
     rotate: 180deg;
-    border-radius: 8px;
-    padding: 18px;
 }

@@ -1,0 +1,17 @@
+.filter_button {
+    background-size: contain;
+    border-radius: 8px;
+    padding: 18px;
+}
+
+.all {
+    background-image: url(/public/images/filter.webp);
+}
+
+.in_progress {
+    background-image: url(/public/images/in-progress.png);
+}
+
+.finished {
+    background-image: url(/public/images/finished.png);
+}
