@@ -2,6 +2,7 @@ import './App.css'
 import { HeaderCard } from './components/headerCard'
 import { UlCard } from './components/ulCard'
 import { ColumnList } from './components/columnList'
+import { Helper } from './components/helper'
 
 const progLangList = [
   {title: 'Python', description: 'Высокоуровневый язык программирования общего назначения с динамической строгой типизацией и автоматическим управлением памятью', status: "none"},
@@ -28,6 +29,7 @@ const keysDb = ['Отношения', 'Транзакции', 'ACID']
 function App() {
   return (  
     <div id='root'>
+        <Helper text='Для изменения статуса навыка, нажмите по нему правой кнопкой мыши'></Helper>
         <HeaderCard title={'Дорожная карта Backend developer'}></HeaderCard>
         <div className='skills'>
           <ColumnList header={'Языки программирования'} array={progLangList}></ColumnList>

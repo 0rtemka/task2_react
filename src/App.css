@@ -28,21 +28,6 @@
     border-bottom-left-radius: 100px;
 }
 
-.col-list {
-    margin-top: 60px;
-    width: 30%;
-
-    .col-list-header {
-        display: flex;
-        justify-content: center;
-        font-size: 26px;
-
-        span {
-            margin-right: 10px;
-        }
-    }
-}
-
 .keys {
     padding-top: 30px;
     display: flex;
@@ -69,4 +54,15 @@
     padding-top: 30px;
     font-size: 28px;
     text-align: center;
+}
+
+.helper {
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    width: fit-content;
+    border: 1px solid blueviolet;
+    background: linear-gradient(to left, rgba(153, 198, 250, 0.7), rgba(120, 233, 255, 0.7));
+    border-radius: 10px;
+    position: fixed;
 }
